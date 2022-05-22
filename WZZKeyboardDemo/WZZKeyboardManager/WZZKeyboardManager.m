@@ -54,7 +54,7 @@ WZZKeyboardManager * wzzKeyboardManager;
         if (y3 < 0) {
             //tf提起
             [UIView animateWithDuration:0.25f animations:^{
-                view.transform = CGAffineTransformMakeTranslation(fr2.origin.x, fr2.origin.y+y3);
+                view.transform = CGAffineTransformMakeTranslation(0, y3);
             }];
         }
     }
